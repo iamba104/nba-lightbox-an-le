@@ -6,46 +6,47 @@
 
 body { 
   font-family: Arial, Helvetica, sans-serif;
-  background-color: black;
+  background-color: #17408B;
   color: white;
 }
 
 /* main header rules */
 header {
-    background-color: red;
+   background-color: goldenrod;
     padding: 10px 0; 
 }
 
 #main-logo { 
-    width: 300px; 
+    width: 150px; 
     display: block;
     margin: 0 auto;
 }
 
 /* main rules here */
-#character_nav {
+#players_nav {
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: #675050;
-    background-image: url('../images/characters_bg.jpg');
+    background-color: black;
+    background-image: url(../images/the_nba.jpg);
+    background-size: fill;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: multiply;
+
 }
 
-#characters { 
+#players { 
     list-style-type: none; 
     padding: 0;
     text-align: center;
 }
 
-#characters li { 
+#players li { 
     display: inline;
     margin: 10px 10px;
     cursor: pointer;
 }
 
-#characters li img {
+#players li img {
     padding: 10px;
     border: solid 1px #fff;
     transition: all .5s ease-in-out;
@@ -53,11 +54,11 @@ header {
     box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, .9);
 }
 
-#characters li a { 
+#players li a { 
     text-decoration: none; 
 }
 
-#characters li img:hover { 
+#players li img:hover { 
     filter: grayscale(100%);
     border-radius: 50%;
 }
@@ -81,14 +82,14 @@ header {
 
 /* footer rules here */
 footer {
-    color: white;
+    color: Wrgb(255, 255, 255);
     padding: 20px 0;
     text-align: center;
 }
 
 #main-footer {
-    height: 80px;
-    background-color: rgb(40, 37, 37);
+    height:auto;
+    background-color:  #C9082A;
 }
 
 /* LightBox Rules */
@@ -100,7 +101,7 @@ footer {
     top: 0;
     left: 0;
     z-index: 2;
-    background-color: rgba(0,0,0,0.85);
+    background-color: rgba(205, 205, 205, 0.85);
     display: none;
     background-repeat: no-repeat;
     background-size: 55vh;
@@ -113,12 +114,24 @@ footer {
 }
 
 #lightbox1 {
-    background-image: url(../images/Cap_LB_Bg.png);
+    background-image: url(../images/doncic_lb_bg.png);
 
 }
 
+#lightbox2 {
+    background-image: url(../images/AE_lb_bg.png);
+}
+
 #lightbox3 {
-    background-image: url(../images/Thor_LB_Bg.png);
+    background-image: url(../images/df_lb_bg.png);
+}
+
+#lightbox4 {
+    background-image: url(../images/greekfr_lb_bg.png);
+}
+
+#lightbox5 {
+    background-image: url(../images/Joker356_lb_bg.png);
 }
 
 .lightbox-close {
